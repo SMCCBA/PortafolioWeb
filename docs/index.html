@@ -7,28 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sebastián Castellano</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/perfil.css">
 </head>
 
 <body>
     <header class="topheader">
         <nav class="navbar">
             <a href="#" class="logo">
-                <img height="50" width="50" 
-                src="imagenes/FPerfil.jpg" 
-                alt="Logo Personal">
+                <img height="50" width="50" src="imagenes/FPerfil.jpg" alt="Logo Personal">
                 <div>
                     Sebastián Castellano <br>
-                    { coder }
+                    { Dev Jr. }
                 </div>
             </a>
             <button class="open-menu" aria-label="Abrir menú">
@@ -46,7 +39,26 @@
             </ul>
         </nav>
     </header>
-
+    <section class="profile">
+        <div class="info">
+            <h1 class="profile-title">Hola, soy <br /> Sebastián Miguel Castellano</h1>
+            <p class="details">Soy Técnico Superior en Seguridad Pública, me apasiona aprender nuevas cosas
+                constantemente. Cursé la carrera de policía en la escuela de Oficiales de la Provincia de Córdoba entre
+                los años 2008 y 2010, lo que me ayudo a tener una muy buena formación en liderazgo y trabajo en equipo.
+                Siempre me gustó la programación y mi intención es modernizar la gestión administrativa dentro de la
+                Institución a la cual pertenezco.</p>
+                <button class="descargarcv">
+                    Descargar CV
+                </button>
+        </div>
+        <span class="img-profile">
+            <img class="img-profiles" 
+            src="imagenes/yo.png" 
+            alt="Foto Sebastián">
+            <div class="linea-img"></div>
+        </span>
+    </section>
 </body>
-    <script defer src="js/menu.js"></script>
+<script defer src="js/menu.js"></script>
+
 </html>
