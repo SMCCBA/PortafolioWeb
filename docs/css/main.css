@@ -1,0 +1,22 @@
+
+/* Se establecen variables para el color de la página */
+:root {
+    --theme-color: white;
+    --primary-color: #124f88;
+    --secondary-color: #f7c331;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shadow-color: #e5e5e5;
+    --menu-mobile-bgcolor: #3a4460;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
